@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-items {
+    display: flex;
+    align-items: center;
+    gap: var(--style-space-24);
+    margin-bottom: var(--style-space-32);
+}
+
+.textarea {
+    resize: none;
+    font-size: 1.2rem;
+    scrollbar-width: thin;
+    border-radius: var(--style-border-radius-8);
+    padding: var(--style-space-8)
+}
+
+@media only screen and (max-width: 1250px) {
+    .textarea {
+        max-width: 490px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .box-items {
+        flex-direction: column;
+    }
+}
