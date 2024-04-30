@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Alphabet-Converter/static/css/main.e78a819e.css",
+    "main.js": "/Alphabet-Converter/static/js/main.c3a8de90.js",
+    "static/js/453.cf903ec3.chunk.js": "/Alphabet-Converter/static/js/453.cf903ec3.chunk.js",
+    "static/media/logo.svg": "/Alphabet-Converter/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Alphabet-Converter/index.html",
+    "main.e78a819e.css.map": "/Alphabet-Converter/static/css/main.e78a819e.css.map",
+    "main.c3a8de90.js.map": "/Alphabet-Converter/static/js/main.c3a8de90.js.map",
+    "453.cf903ec3.chunk.js.map": "/Alphabet-Converter/static/js/453.cf903ec3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e78a819e.css",
+    "static/js/main.c3a8de90.js"
+  ]
+}
