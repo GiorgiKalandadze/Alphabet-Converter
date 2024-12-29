@@ -2,8 +2,8 @@ import {useState} from 'react';
 import styles from './LanguageConverter.module.css';
 
 export default function LanguageConverter() {
-    const [inputText, setInputText] = useState('');
-    const [outputText, setOutputText] = useState('');
+    const [inputText, setInputText] = useState(Object.keys(alphabetMap).join('\n'));
+    const [outputText, setOutputText] = useState(Object.values(alphabetMap).join('\n'));
 
     function handleConvert(currentInputText) {
         let outputTextResult = '';
